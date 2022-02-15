@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1601px;
+}
+
+.heading {
+    padding: 26px 200px;
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #c5103d;
+}
+
+p {
+font-size: 30px;
+line-height: 32px;
+color: #012f6d;
+font-family: "Futura Std";
+text-align: right;
+}
+
+nav {
+    background-color: #012f6d;
+    height: 51px;
+}
+
+.banner {
+    height: 553px;
+    background-color: aqua;
+}
+
+form input{
+    display: block;
+}
+
+.form-btn {
+    background-color: #c5103d;
+}
