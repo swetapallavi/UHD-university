@@ -1,43 +1,174 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 1601px;
+  width: 1601px;
 }
 
 .heading {
-    padding: 26px 200px;
-    height: 113px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 4px solid #c5103d;
+  padding: 26px 200px;
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid #c5103d;
 }
 
-p {
-font-size: 30px;
-line-height: 32px;
-color: #012f6d;
-font-family: "Futura Std";
-text-align: right;
+.heading p {
+  font-size: 30px;
+  line-height: 32px;
+  color: #012f6d;
+  font-family: "Futura Std";
+  text-align: right;
 }
 
 nav {
-    background-color: #012f6d;
-    height: 51px;
+  background-color: #012f6d;
+  height: 51px;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+}
+
+li {
+  height: 100%;
+  list-style: none;
+  color: white;
+  padding: 20px;
+}
+
+li:first-child {
+  background-color: #c5103d;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .banner {
-    height: 553px;
-    background-color: aqua;
+  width: 1601px;
+  height: 551px;
+  background-color: #c5103d;
+  position: relative;
 }
 
-form input{
-    display: block;
+form {
+  width: 427px;
+  height: 510px;
+  background-color: #84a4d0;
+  margin: auto;
+  position: absolute;
+  top: 16px;
+  bottom: 16px;
+  right: 200px;
+}
+
+.form-header {
+  width: 427px;
+  height: 70px;
+  background-color: #012f6d;
+  display: flex;
+  align-items: center;
+  padding: 16px 26px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Futura";
+}
+
+.form-header i {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.form-items {
+  padding: 16px 26px;
+}
+
+form input {
+  display: block;
+  width: 375px;
+  height: 43px;
+  background-color: #ffffff;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 48px;
+  color: #545252;
+  font-family: "A Garamond Pro";
+}
+
+.dropdown {
+  width: 375px;
+  height: 43px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.dropdown i {
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  right: 15px;
 }
 
 .form-btn {
-    background-color: #c5103d;
+  width: 375px;
+  height: 66px;
+  background-color: #c5103d;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: bold;
+  font-family: "Futura Std";
+  text-align: center;
+}
+
+/* i {
+width: 36px;
+height: 36px;
+} */
+
+article {
+  width: 1200px;
+  height: 477px;
+}
+
+article h1 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 43px;
+  color: #012f6d;
+  font-weight: bold;
+  font-family: "Futura LT";
+}
+
+.description {
+  width: 563px;
+  height: 444px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: #545252;
+  font-family: "A Garamond Pro";
+}
+
+.description p {
+  text-align: start;
+  padding: 15px;
+}
+
+.card {
+  width: 539px;
+  height: 422px;
+  background-color: #012f6d;
+  float: right;
 }
