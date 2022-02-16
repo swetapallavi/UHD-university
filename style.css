@@ -39,7 +39,7 @@ ul {
 li {
   height: 100%;
   list-style: none;
-  color: white;
+  color: #ffffff;
   padding: 20px;
 }
 
@@ -47,9 +47,13 @@ li:first-child {
   background-color: #c5103d;
 }
 
+li:last-child {
+  border-right: 1px groove #ffffff70;
+}
+
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .banner {
@@ -57,6 +61,26 @@ a {
   height: 551px;
   background-color: #c5103d;
   position: relative;
+}
+
+.quote {
+  width: 1600px;
+  height: 102px;
+  background-color: #012f6d;
+  opacity: 75%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.quote p {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 37px;
+  color: #ffffff;
+  font-family: "A Garamond Pro";
+  padding-left: 200px;
 }
 
 form {
@@ -88,8 +112,17 @@ form {
   font-size: 30px;
 }
 
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #012f6d;
+  margin-left: 30px;
+}
+
 .form-items {
-  padding: 16px 26px;
+  padding: 10px 26px 16px 26px;
 }
 
 form input {
@@ -126,10 +159,14 @@ form input {
   background-color: #c5103d;
   font-size: 20px;
   letter-spacing: 1px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   font-family: "Futura Std";
   text-align: center;
+}
+
+.form-btn:hover {
+  cursor: pointer;
 }
 
 /* i {
